@@ -1,0 +1,46 @@
+
+body {
+    font-size: 32px;
+    background:white;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: aqua;
+    text-align: center;
+    border-style: dotted;
+    border-color:black;
+    color:yellow;
+   }
+
+   h2 {
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: yellow;
+    text-align: center;
+    border-style: dotted;
+    color: black;
+   }
+
+   article{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-style:dotted;
+    padding: 5px;
+}
+
+footer {
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: aqua;
+    text-align: center;
+    border-style: dotted;
+    border-color:black;
+    color:yellow;
+    margin: 20px;
+   }
