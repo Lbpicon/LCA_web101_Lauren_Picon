@@ -44,3 +44,32 @@ footer {
     color:yellow;
     margin: 20px;
    }
+
+
+   
+/* Small and up (Landscape Phones) */
+@media (max-width: 576px) {
+
+    
+}
+
+
+
+/* Medium and up (Tablets) */
+@media (max-width: 768px) {
+
+}
+
+
+
+/* Large and up (Desktops) */
+@media (max-width: 992px) {
+
+}
+
+
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (max-width: 1200px) {
+
+}

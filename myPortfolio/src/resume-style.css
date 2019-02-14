@@ -71,9 +71,3 @@ article {
     margin-right: 40px;
     margin-left: 2%;
   }
-
-
-  @ media (max-width:576px) {
-    body { background-image: none;
-
-  } }
