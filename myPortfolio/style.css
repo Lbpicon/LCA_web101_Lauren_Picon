@@ -99,18 +99,26 @@ body {
 
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:whitesmoke;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
+    background-color:lightblue;
+    background-image: none;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: 30%;
+    background-position-y: 10%;
+    color: whitesmoke;
     }
+
+    div.image {
+      content:url(http://placehold.it/350x150);
+   }​
+ 
+
   
   .logo {
     width: 100%;
     height: 100%;
     margin: 5%;
     margin-left: auto;
+    display: none;
     }
   
   header {
@@ -131,8 +139,8 @@ body {
     height: 10%;
     width: 15%;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-family:  Tahoma;
+    font-size: 20px;
     border-radius: 25px;
     padding: 20px; 
     text-align: center;
@@ -144,7 +152,8 @@ body {
     border: 1px solid #0795C3;
     background: none;
     padding: 20px; 
-  }
+    border-style: none;
+      }
   
   nav {
     display: flex;
@@ -161,7 +170,7 @@ body {
   }
   
   h1 {
-    color:white;
+    color: whitesmoke;
     grid-column: 2/3;
     margin: 3% auto;
     border-bottom: 2px solid #1940A9;;
@@ -196,29 +205,19 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Medium and up (Tablets) */
-@media (min-width: 768px) {
+@media (max-width: 768px) 
 
-}
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 10%;
+    }
+
+
 
 /* Large and up (Desktops) */
 @media (min-width: 992px) {
