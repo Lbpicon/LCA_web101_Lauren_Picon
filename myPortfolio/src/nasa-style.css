@@ -1,0 +1,39 @@
+
+section{
+    display: flex;
+    background-color: lightgray;
+    margin-top: 20px;
+    width: 850px;
+    height: 324px;
+    flex-direction: row;
+    margin-left: 100px;
+               }
+
+main { 
+    background-image: url(galaxy2.jpg);
+    width: 850px;
+    height: 450px;
+    align-content: center;
+    margin-left: 100px;
+    }
+
+#article {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+div {
+    margin-top: 100px;
+    }
+
+
+h2 {
+    margin: 50px;
+    margin-top: 10px;
+    align-content: center
+}
+
+p {
+    font-family: 'Courier New';
+}
