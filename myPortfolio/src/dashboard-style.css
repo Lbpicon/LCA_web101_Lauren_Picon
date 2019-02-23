@@ -1,6 +1,7 @@
 header {
-  background-color: lightblue;
+  background-color: #add8e6;
   grid-area: header;
+ 
 }
 main {
   background-color: pink;
@@ -45,7 +46,6 @@ h1 {
 padding-top: 20px;
 padding-bottom: 20px;
 text-align: center;
-
 }
 
 #numbers{
@@ -80,9 +80,11 @@ margin: 20px 20px 20px 20px;}
   height: 50px;
   margin: 5px auto;
   border-radius: 10px;
+  border-style: solid;
+  border-color: white;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 576px) { /*-----MEDIA QUERY FOR MOBILE----*/
   .container {
     grid-template-columns: 1fr 3fr;
     grid-template-areas: 
@@ -91,11 +93,117 @@ margin: 20px 20px 20px 20px;}
       "aside   main"
       "banner  footer";
   }
+
+
+#name {
+text-align: center;
+margin-left: 30px;
+font-family: Verdana;
+border-color: black;
+
+}
+
   nav ul {
     display: flex;
     justify-content: space-between;
   }
-}
+
+  #calendar {
+    background-image:url(wood.jpeg);
+    width: 500px;
+    height: 400px;
+    border: dashed;
+    margin: 20px 20px 20px 20px;
+    font-family: Verdana;
+            }
+
+ 
+      
+    #days {
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+        }
+        
+    h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Century;
+    
+    }
+    
+    #numbers{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 20px;
+    }
+    
+    li {list-style-type: none;
+    margin: 20px 20px 20px 20px;}
+    
+    #calculator {
+      width: 225px;
+      height: 300px;
+      background-image:url(wood.jpeg);
+      border-radius: 10px;
+      margin: 150px 150px;
+      padding: 10px;
+    }
+    
+    .digitButton {
+     width: 60px;
+     height: 30px;
+     margin: 2px 5px;
+     padding: 2px 2px;
+     border-radius: 4px;
+    
+    }
+    
+    
+    #displayBox {
+      width: 215px;
+      height: 50px;
+      margin: 5px auto;
+      border-radius: 10px;
+           }
+
+          header {
+            background-color:lightgray;
+            font-family: 'Courier New';
+            font-size: 20px;
+      
+           
+          }
+          main {
+            background-color: white;
+            min-height: calc(100vh - 54px);
+            grid-area: main;
+          }
+          nav {
+            background-color: black;
+            grid-area: nav;
+          }
+          aside {
+            background-color:whitesmoke;
+            grid-area: aside;
+            margin-bottom: 10px;
+            border: 90px;
+            border: dashed;
+            border-color: white;
+            
+          }
+          .banner {
+            background-color: black;
+            grid-area: banner;
+          }
+          footer {
+            background-color:black;
+            grid-area: footer;
+          }
 
 @media (min-width: 700px) {
   .container {
