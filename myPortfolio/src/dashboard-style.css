@@ -1,11 +1,14 @@
 header {
   grid-area: header;
+  background-color: gainsboro;
   text-align: center;
-  font-family: Georgia, serif;
-  font-size:100px;
-  text-shadow: 4px 4px 4px 4px #3E8C9F;
-  color:lightblue;
-  background-color: lightblue;
+  font-family: Arial;
+  font-size:90px;
+  text-shadow: 2px 2px 4px #3E8C9F;
+  color:lightcyan;
+  
+
+
 }
 main {
   background-color: whitesmoke;
@@ -13,7 +16,7 @@ main {
   grid-area: main;
 }
 nav {
-  background-color:lightblue;
+  background-color:gainsboro;
   grid-area: nav;
   
 }
@@ -21,19 +24,20 @@ aside {
   background-color:whitesmoke;
   grid-area: aside;
 }
+
 .banner {
-  background-color:lightblue;
+  background-color: gainsboro;
   grid-area: banner;
-  font-family: Arial;
   text-align: center;
-  font-family: Georgia, serif;
+  font-family: Arial;
   font-size:70px;
   text-shadow: 2px 2px 4px #3E8C9F;
-  color:lightblue;
+  color:lightcyan;
 
 }
+
 footer {
-  background-color:lightblue;
+  background-color:gainsboro;
   grid-area: footer;
   text-align: center;
   font-family: Arial;
@@ -53,15 +57,17 @@ color: white;
 font-family: Arial;
 opacity: 70%;
 font-size: 20px;
-
 }
 
 
 #days {
-margin: 60px 60px 60px 60px;
+margin: 30px 30px 30px 30px;
 display: flex;
 flex-direction: row;
-
+color: white;
+font-family: Arial;
+font-size: 40px;
+font-weight: 400;
 }
 
 
@@ -71,15 +77,18 @@ padding-bottom: 20px;
 text-align: center;
 }
 
-#numbers{
+#numbers {
 display:flex;
 flex-direction: row;
 flex-wrap: wrap;
-margin: 50px 50px 50px 50px;
+margin: 60px 60px 60px 60px;
+grid-row-gap: 10px;
+grid-template-rows: repeat(5, 1 fr);
 }
 
 li {list-style-type: none;
 margin: 20px 20px 20px 20px;}
+
 
 #calculator {
   width: 225px;
@@ -102,7 +111,6 @@ margin: 20px 20px 20px 20px;}
  margin: 2px 5px;
  padding: 2px 2px;
  border-radius: 4px;
-
 }
 
 
@@ -131,15 +139,15 @@ text-align: center;
 margin-left: 30px;
 font-family: Verdana;
 border-color: black;
-
 }
 
-  nav ul {
+
+nav ul {
     display: flex;
     justify-content: space-between;
   }
 
-  #calendar {
+#calendar {
     background-image:url(wood.jpeg);
     width: 525px;
     height: 450px;
