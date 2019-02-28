@@ -16,7 +16,7 @@ section{
                                }
 
 main { 
-    background-image: url(galaxy.jpeg);
+    background-image: url(../images/galaxy.jpeg);
     background-repeat: no-repeat;
     width: 850px;
     height: 450px;
