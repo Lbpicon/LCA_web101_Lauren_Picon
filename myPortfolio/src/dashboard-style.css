@@ -61,13 +61,13 @@ font-size: 20px;
 
 
 #days {
-margin: 30px 30px 30px 30px;
+margin: 10px 10px 10px 10px;
 display: flex;
 flex-direction: row;
 color: white;
 font-family: Arial;
-font-size: 40px;
-font-weight: 400;
+font-size: 30px;
+
 }
 
 
@@ -84,6 +84,7 @@ flex-wrap: wrap;
 margin: 60px 60px 60px 60px;
 grid-row-gap: 10px;
 grid-template-rows: repeat(5, 1 fr);
+
 }
 
 li {list-style-type: none;
@@ -96,6 +97,9 @@ margin: 20px 20px 20px 20px;}
   background-color:darkgray;
   border-radius: 10px;
   margin: 20px auto;
+  border-color: black;
+  border-style: groove;
+
 }
 
 #name {
@@ -121,6 +125,20 @@ margin: 20px 20px 20px 20px;}
   border-radius: 10px;
   border-style: solid;
   border-color: white;
+}
+
+#message {
+  display: grid;
+  width: 215px;
+  height: 50px;
+  margin: 5px auto;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: burlywood;
+  grid-column: 2/4;
+  grid-row: 1/3;
+  
+
 }
 
 @media (max-width: 576px) { /*-----MEDIA QUERY FOR MOBILE----*/
@@ -250,16 +268,130 @@ nav ul {
             grid-area: footer;
           }
 
-@media (min-width: 700px) {
+@media (max-width: 768px) {
   .container {
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-areas: 
-      "header header  header"
-      "nav    main    aside"
-      "nav    main    banner"
-      "footer footer  footer"
-   }
-   nav ul {
-     flex-direction: column;
-   }
+      "header  header"
+      "nav     nav"
+      "aside   main"
+      "banner  footer";
+  }
+
+
+#name {
+text-align: center;
+margin-left: 30px;
+font-family: Verdana;
+border-color: black;
 }
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+#calendar {
+    background-image:url(wood.jpeg);
+    width: 525px;
+    height: 450px;
+    border: dashed;
+    margin: 10px auto;
+    font-family: Verdana;
+    padding: 5px auto; 
+            }
+
+ 
+      
+    #days {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    text-align: center;
+        }
+        
+    h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Century;
+    
+    }
+    
+    #numbers{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 20px;
+    }
+    
+    li {list-style-type: none;
+    margin: 20px 20px 20px 20px;}
+    
+    #calculator {
+      width: 225px;
+      height: 300px;
+      background-image:url(wood.jpeg);
+      border-radius: 10px;
+      margin: 150px 150px;
+      padding: 10px;
+    }
+    
+    .digitButton {
+     width: 60px;
+     height: 30px;
+     margin: 2px 5px;
+     padding: 2px 2px;
+     border-radius: 4px;
+    
+    }
+    
+    
+    #displayBox {
+      width: 215px;
+      height: 50px;
+      margin: 5px auto;
+      border-radius: 10px;
+           }
+
+          header {
+            background-color:whitesmoke;
+            font-family: 'Courier New';
+            font-size: 20px;
+            text-align: center;
+      
+           
+          }
+          main {
+            background-color: white;
+            min-height: calc(100vh - 54px);
+            grid-area: main;
+          }
+          nav {
+            background-color: black;
+            grid-area: nav;
+          }
+          aside {
+            background-color:whitesmoke;
+            grid-area: aside;
+            margin-bottom: 10px;
+            border: 90px;
+            border: dashed;
+            border-color: white;
+            
+          }
+          .banner {
+            background-color: black;
+            grid-area: banner;
+          }
+          footer {
+            background-color:black;
+            grid-area: footer;
+          }
