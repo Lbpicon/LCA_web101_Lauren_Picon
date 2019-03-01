@@ -140,7 +140,7 @@ margin: 20px 20px 20px 20px;}
 }
 
 @media (max-width: 576px) { /*-----MEDIA QUERY FOR MOBILE----*/
-  .container {
+.container {
     grid-template-columns: 1fr 3fr;
     grid-template-areas: 
       "header  header"
@@ -172,10 +172,8 @@ nav ul {
     font-family: Verdana;
     padding: 5px auto; 
             }
-
- 
-      
-    #days {
+       
+#days {
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -186,24 +184,22 @@ nav ul {
     margin-top: 5px;
         }
         
-    h1 {
+h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
     font-size: 15px;
     font-family: Century;
+        }
     
-    }
-    
-    #numbers{
+#numbers{
       display: grid;
       grid-template-columns: repeat(7, 1fr);
       margin: 60px 60px 60px 60px;
       grid-row-gap: 10px;
-
     }
     
-    li {list-style-type: none;
+li {list-style-type: none;
     margin: 20px 20px 20px 20px;}
     
     #calculator {
@@ -215,32 +211,30 @@ nav ul {
       padding: 10px;
     }
     
-    .digitButton {
+.digitButton {
      width: 60px;
      height: 30px;
      margin: 2px 5px;
      padding: 2px 2px;
      border-radius: 4px;
+        }
     
-    }
     
-    
-    #displayBox {
+#displayBox {
       width: 215px;
       height: 50px;
       margin: 5px auto;
       border-radius: 10px;
            }
 
-          header {
+header {
             background-color:whitesmoke;
             font-family: 'Courier New';
             font-size: 20px;
             text-align: center;
-      
-           
-          }
-          main {
+               }
+
+    main {
             background-color: white;
             min-height: calc(100vh - 54px);
             grid-area: main;
@@ -268,15 +262,18 @@ nav ul {
             grid-area: footer;
           }
 
-@media (max-width: 768px) {
+
+
+@media (min-width: 768px) {
+
   .container {
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas: 
-      "header  header"
-      "nav     nav"
-      "aside   main"
-      "banner  footer";
-  }
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: 
+    "header  header"
+    "nav     nav"
+    "aside   main"
+    "banner  footer";
+}
 
 
 #name {
@@ -288,106 +285,108 @@ border-color: black;
 
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: space-between;
+}
 
 #calendar {
-    background-image:url(../../images/wood.jpeg);
-    width: 525px;
-    height: 450px;
-    border: dashed;
-    margin: 10px auto;
-    font-family: Verdana;
-    padding: 5px auto;
-            }
-
- 
+  background-image:url(../../images/wood.jpeg);
+  width: 525px;
+  height: 450px;
+  border: dashed;
+  margin: 10px auto;
+  font-family: Verdana;
+  padding: 5px auto; 
+          }
+     
+#days {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 5px auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+      }
       
-    #days { 
-      display: grid;
-      grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    padding: 5px auto;
-    /* display: flex;
-    flex-direction: row; */
-    text-align: center;
-        }
-    
-        
-    h1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 15px;
-    font-family: Century;
-    
-    }
-    
-    #numbers{
-    display:grid;
+h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-family: Century;
+      }
+  
+#numbers{
+    display: grid;
     grid-template-columns: repeat(7, 1fr);
-    margin: 20px 20px 20px 20px;
-    }
-    
-    li {list-style-type: none;}
-    
-    #calculator {
-      width: 225px;
-      height: 300px;
-      background-image:url(../../images/wood.jpeg);
-      border-radius: 10px;
-      margin: 150px 150px;
-      padding: 10px;
-    }
-    
-    .digitButton {
-     width: 60px;
-     height: 30px;
-     margin: 2px 5px;
-     padding: 2px 2px;
-     border-radius: 4px;
-    
-    }
-    
-    
-    #displayBox {
-      width: 215px;
-      height: 50px;
-      margin: 5px auto;
-      border-radius: 10px;
-           }
+    margin: 60px 60px 60px 60px;
+    grid-row-gap: 10px;
+  }
+  
+li {list-style-type: none;
+  margin: 20px 20px 20px 20px;}
+  
+  #calculator {
+    width: 225px;
+    height: 300px;
+    background-image:url(../../images/wood.jpeg);
+    border-radius: 10px;
+    margin: 150px 150px;
+    padding: 10px;
+  }
+  
+.digitButton {
+   width: 60px;
+   height: 30px;
+   margin: 2px 5px;
+   padding: 2px 2px;
+   border-radius: 4px;
+      }
+  
+  
+#displayBox {
+    width: 215px;
+    height: 50px;
+    margin: 5px auto;
+    border-radius: 10px;
+         }
 
-          header {
-            background-color:whitesmoke;
-            font-family: 'Courier New';
-            font-size: 20px;
-            text-align: center;
-      
-           
-          }
-          main {
-            background-color: white;
-            min-height: calc(100vh - 54px);
-            grid-area: main;
-          }
-          nav {
-            background-color: black;
-            grid-area: nav;
-          }
-          aside {
-            background-color:whitesmoke;
-            grid-area: aside;
-            margin-bottom: 10px;
-            border: 90px;
-            border: dashed;
-            border-color: white;
-            
-          }
-          .banner {
-            background-color: black;
-            grid-area: banner;
-          }
-          footer {
-            background-color:black;
-            grid-area: footer;
-          }
+header {
+          background-color: gold;
+          font-family: 'Courier New';
+          font-size: 20px;
+          text-align: center;
+             }
+
+main {
+          background-color: white;
+          min-height: calc(100vh - 54px);
+          grid-area: main;
+        }
+        
+nav {
+          background-color: black;
+          grid-area: nav;
+        }
+
+aside {
+          background-color:whitesmoke;
+          grid-area: aside;
+          margin-bottom: 10px;
+          border: 90px;
+          border: dashed;
+          border-color: white;
+                 }
+
+.banner {
+          background-color: black;
+          grid-area: banner;
+        }
+
+ footer {
+          background-color:black;
+          grid-area: footer;
+        } 
+      }
