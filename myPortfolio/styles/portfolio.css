@@ -1,0 +1,31 @@
+header {
+    background-color:saddlebrown;
+    height: auto;
+    color: salmon;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI';
+    font-weight: 200;
+    margin: 0px auto;
+
+}
+
+#soulful {
+    margin: 5px auto;
+    border-style: solid;
+    border-color: sandybrown;
+    background-color: sandybrown;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px auto;
+       }
+
+section {
+    background-color: seagreen;
+    background-image: url(../images/art_background.jpeg);
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+
+
