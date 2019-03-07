@@ -6,11 +6,21 @@
     background-size: cover;
 }
 
-p   {
+header   {
     color:black;
     font-family: Segoe UI;
     font-size: 70px;
-    text-align: center;
+	text-align: center;
+	margin: 30px auto;
+	flex-wrap: wrap;
+}
+
+#aol {
+		opacity: .5;
+		width: 100px;
+		height: 100px;
+		margin: 30px auto;
+		
 }
 
 .container {
