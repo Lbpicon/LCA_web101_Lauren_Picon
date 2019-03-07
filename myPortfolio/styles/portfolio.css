@@ -41,6 +41,7 @@ header {
 
  main {
         background-image: url(../images/blue-background-blue-sky-close-up-1864189.jpg);
+        background-size: contain;
        
     }
 
