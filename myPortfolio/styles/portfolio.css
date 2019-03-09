@@ -28,16 +28,12 @@ header {
         
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 0px auto;
+        margin: 10px auto;
         display: inline-block;
         height: auto;
         margin-bottom: 30px;
-        
-        
+                
                       }
-
-
-
 
  main {
         background-image: url(../images/blue-background-blue-sky-close-up-1864189.jpg);
