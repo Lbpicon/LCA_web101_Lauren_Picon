@@ -1,0 +1,80 @@
+
+body {
+    font-size: 32px;
+    background:goldenrod;
+}
+
+.class {
+        height: 20px;
+        width: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: aqua;
+    text-align: center;
+    border-style: dotted;
+    border-color:black;
+    color:yellow;
+   }
+
+   h2 {
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: yellow;
+    text-align: center;
+    border-style: dotted;
+    color: black;
+   }
+
+   article{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20px;
+    background-color: black;
+    color:pink;
+    font-size: 30px;
+    text-align: center;
+    border-style:dotted;
+    padding: 5px;
+}
+
+footer {
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background: aqua;
+    text-align: center;
+    border-style: dotted;
+    border-color:black;
+    color:yellow;
+    margin: 20px;
+   }
+
+
+   
+/* Small and up (Landscape Phones) */
+@media (max-width: 576px) {
+
+    
+}
+
+
+
+/* Medium and up (Tablets) */
+@media (max-width: 768px) {
+
+}
+
+
+
+/* Large and up (Desktops) */
+@media (max-width: 992px) {
+
+}
+
+
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (max-width: 1200px) {
+
+}
