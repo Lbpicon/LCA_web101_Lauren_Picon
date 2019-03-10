@@ -48,7 +48,7 @@ header   {
 
 .container {
 	width: 30%;
-	margin: 0 auto;
+	margin: 55px auto;
    }
 
 .speech-bubble {
@@ -98,4 +98,12 @@ header   {
 	border-left: 0;
 	margin-left: -21px;
 	margin-bottom: -22px;
+}
+
+#profilePic {
+	width: 80px;
+	height: 80px;BORDER-RADIUS: 50%;
+	border: 1px solid grey;
+	padding: 10PX;
+
 }
