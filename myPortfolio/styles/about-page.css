@@ -1,0 +1,79 @@
+.intro {
+    color:black;
+    font-family: Geneva;
+    font-size: 10px;
+    text-align: center;
+    background-size: cover;
+}
+
+header   {
+    color:black;
+    font-family: Segoe UI;
+    font-size: 70px;
+	text-align: center;
+	margin: 30px auto;
+	flex-wrap: wrap;
+}
+
+#aol {
+		opacity: .5;
+		width: 100px;
+		height: 100px;
+		margin: 30px auto;
+		
+}
+
+.container {
+    width: 300px;
+    margin: 20px 500px 500px 500px;
+}
+
+.speech-bubble {
+	position: relative;
+	background: lightgrey;
+    border-radius: .4em;
+    padding: 20px;
+    
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 42px solid transparent;
+	border-top-color:lightgrey;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -21px;
+    margin-bottom: -42px;
+    
+}
+
+.me-speech {
+	position: relative;
+	background: gray;
+    border-radius: .4em;
+    margin: 50px 50px 50px 50px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.me-speech:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 42px solid transparent;
+	border-top-color: gray;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -21px;
+	margin-bottom: -42px;
+}
