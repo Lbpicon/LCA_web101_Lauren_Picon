@@ -20,7 +20,8 @@
 	color:black;
 	padding: 40px auto;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
+	font-weight: 100;
 	
 	
 	;
@@ -101,9 +102,10 @@ header   {
 }
 
 #profilePic {
-	width: 80px;
-	height: 80px;BORDER-RADIUS: 50%;
-	border: 1px solid grey;
+	width: 90px;
+	height: 90px;BORDER-RADIUS: 50%;
+	border: 1px dashed grey;
 	padding: 10PX;
+	
 
 }
