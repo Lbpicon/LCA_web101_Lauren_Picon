@@ -1,32 +1,56 @@
+
+
+.everything {
+	display: flex;
+}
+
 .intro {
-    color:black;
-    font-family: Geneva;
-    font-size: 10px;
-    text-align: center;
-    background-size: cover;
+    color:goldenrod;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 60px;
+    text-align: right;
+	background-size: cover;
+	padding: 20px;
+	margin: 0 auto;
+	width: 30%;
+	
+}
+
+.introtext {
+	color:black;
+	padding: 40px auto;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 100;
+	
+	
+	;
+
+
 }
 
 header   {
     color:black;
-    font-family: Segoe UI;
+    font-family: 'Thasadith', sans-serif;
     font-size: 70px;
 	text-align: center;
-	margin: 30px auto;
+	margin: 10px auto;
 	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 #aol {
 		opacity: .5;
-		width: 100px;
-		height: 100px;
-		margin: 30px auto;
-		
+		width: 35px;
+		height: 35px;
+		margin: 10px 10px 10px auto;
+			
 }
 
 .container {
-    width: 300px;
-    margin: 20px 500px 500px 500px;
-}
+	width: 30%;
+	margin: 55px auto;
+   }
 
 .speech-bubble {
 	position: relative;
@@ -49,8 +73,7 @@ header   {
 	border-right: 0;
 	margin-left: -21px;
     margin-bottom: -42px;
-    
-}
+    }
 
 .me-speech {
 	position: relative;
@@ -75,5 +98,14 @@ header   {
 	border-bottom: 0;
 	border-left: 0;
 	margin-left: -21px;
-	margin-bottom: -42px;
+	margin-bottom: -22px;
+}
+
+#profilePic {
+	width: 90px;
+	height: 90px;BORDER-RADIUS: 50%;
+	border: 1px dashed grey;
+	padding: 10PX;
+	
+
 }
