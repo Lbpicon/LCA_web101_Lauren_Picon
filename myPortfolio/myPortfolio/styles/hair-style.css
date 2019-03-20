@@ -127,13 +127,14 @@ p {
     font-family: Tahoma;
     }
 
-    span {
+span {
 
         color: white;
-        padding: 80px 80px 80px 80px;
+        padding: 10px auto;
         font-size: 30px;
         font-family: 'Segoe UI';
-       
+        border-radius: 500px;
+        width: 50px;
                 
       }
 
@@ -156,4 +157,10 @@ p {
 
 h2 {
     background-color: white;
+}
+
+#square2circle {
+    width: 30px;
+    background: pink;
+    
 }
