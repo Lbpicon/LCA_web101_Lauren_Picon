@@ -75,6 +75,7 @@ body {
     border-bottom: 0\5px solid #005266;
     font-size: 100px;
     text-align: center;
+    animation-name: jello;
   }
   
   h2 {
@@ -187,7 +188,8 @@ body {
     color: whitesmoke;
     grid-column: 2/3;
     margin: 3% auto;
-    border-bottom: 2px solid #1940A9;;
+    border-bottom: 2px solid #1940A9;
+    -webkit-animation: jello;
   }
   
   h2 {
@@ -239,6 +241,9 @@ body {
 }
 
 /* Extra Large and up (Wide Screen Desktops) */
-@media (min-width: 1200px) {
-
+@media (min-width: 1200px) { 
+  
 }
+
+ /* jello css animation*/ 
+ 
