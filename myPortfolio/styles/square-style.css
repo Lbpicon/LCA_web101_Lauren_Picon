@@ -1,0 +1,190 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    }
+
+div {
+    margin: 10px auto;
+}
+
+
+
+.salmon {
+    background-color: salmon;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    
+}
+
+.salmon:hover {
+    background-color: salmon;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    transform: 
+      
+   
+}
+
+.pink {
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.pink:hover {
+    background-color:green;
+    height: 100px;
+    width: 100px;
+}
+
+.lightpink {
+    background-color: lightpink;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+
+}
+
+
+.lightpink:hover {
+    background-color: salmon;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+
+.magenta {
+    background-color: magenta;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.magenta:hover {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+.red {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+
+}
+
+.red:hover {
+    background-color: salmon;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+
+.blue {
+    background-color:blue;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.blue:hover
+{background-color: pink;
+    height: 100px;
+    width: 100px; }
+
+
+.lghtblue {
+    background-color: lightskyblue;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.lghtblue:hover {
+    background-color: blue;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+
+
+.green {
+    background-color: green; 
+    height:50px;
+    width: 50px;
+    margin-top: 10px;   
+
+}
+
+.green:hover {
+    background-color:yellow; 
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    }
+
+.purple {
+    background-color:purple;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+
+.purple:hover {
+    background-color: violet;
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+
+.lavendar {
+    background-color: lavender; 
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.lavendar:hover {
+    background-color:lightseagreen; 
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.lghtgreen {
+    background-color: lightgreen;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    }
+
+.lghtgreen:hover {
+        background-color:grey;
+        height: 25px;
+        width: 25px;
+        margin-top: 10px;
+    }
+
+
+.yellow {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    margin-top: 10px;
+}
+
+.yellow:hover {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-top: 10px;
+}
