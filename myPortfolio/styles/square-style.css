@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /*ADD TO ALL PAGES FROM NOW */
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightseagreen;
+    } /*COVERS ENTIRE PAGE */
+
+.squares {
+    width: 100vw;
+    height: 100vh;
+} /*THIS IS MY CONTAINER*/
+
+.square {
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    transition: transform 3s ease-in-out;
+} /*ANIMATION PROPERTY APPLIED TO ALL SQUARES- ALL PROPERTIES OF SQUARES GO HERE - "salmon square" - PART OF NAME*/
+
+.squares:hover > .square:nth-child(even) {
+    transform: translate(47vw) rotate(360deg) scale(2); 
+}
+
+.squares:hover > .square:nth-child(odd) {
+    transform: translate(-49vw) rotate(-360deg);
+}
+
+
+
+.salmon {
+    background-color: salmon;
+   
+    
+}
+
+.salmon:hover {
+    background-color: salmon;
+ 
+      
+   
+}
+
+.pink {
+    background-color: pink;
+    
+}
+
+.pink:hover {
+    background-color:green;
+   
+}
+
+.lightpink {
+    background-color: lightpink;
+    
+
+}
+
+
+.lightpink:hover {
+    background-color: salmon;
+  
+}
+
+.magenta {
+    background-color: magenta;
+   }
+
+.magenta:hover {
+    background-color: blue;
+
+}
+
+
+
+
+.red {
+    background-color: red;
+   
+}
+
+.red:hover {
+    background-color: salmon;
+   
+}
+
+.blue {
+    background-color:blue;
+    }
+
+.blue:hover
+{background-color: pink;
+     }
+
+
+.lghtblue {
+    background-color: lightskyblue;
+    
+}
+
+.lghtblue:hover {
+    background-color: blue;
+   
+}
+
+
+.green {
+    background-color: green; 
+    
+
+}
+
+.green:hover {
+    background-color:yellow; 
+    
+    }
+
+.purple {
+    background-color:purple;
+   
+}
+
+
+.purple:hover {
+    background-color: violet;
+    
+}
+
+.lavendar {
+    background-color: lavender; 
+    
+}
+
+.lavendar:hover {
+    background-color:lightseagreen; 
+   
+}
+
+.lghtgreen {
+    background-color: lightgreen;
+  
+    }
+
+.lghtgreen:hover {
+        background-color:grey;
+       
+    }
+
+
+.yellow {
+        background-color: yellow;
+    
+}
+
+.yellow:hover {
+    background-color: red;
+}
