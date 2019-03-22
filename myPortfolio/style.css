@@ -5,6 +5,8 @@ body {
     background-position-y: 40%;
     width: auto;
     height: 10px;
+    overflow-x: hidden;
+    
        }
   
   .logo {
@@ -96,6 +98,7 @@ body {
     font-size: 20px;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.5em;
+    overflow-y: hidden;
   }
   
   button {
