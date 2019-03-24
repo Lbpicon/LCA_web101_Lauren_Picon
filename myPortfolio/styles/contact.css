@@ -86,7 +86,7 @@ h2 {
         flex-direction: row;
         font-family: 'Monoton', cursive;
         color: red;
-        }
+               }
    
     section {
             margin-bottom: 30px;
@@ -103,4 +103,11 @@ h2 {
             color: black;
             font-family: 'Lilita One', cursive;
             margin-top: 20px;  
+        }
+    
+    body {
+            background-image: url(../images/call.jpg);
+            width: 300px
+            height: 400px;
+            
         }

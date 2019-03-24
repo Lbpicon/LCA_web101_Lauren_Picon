@@ -1,511 +1,154 @@
 body {
-    font-family: 'Fjalla One', sans-serif;
-    background-image: url(images/stars.jpeg);
-    background-repeat: no-repeat;
-    background-position-y: 40%;
-    width: auto;
-    height: 10px;
-    overflow-x: hidden;
-    
-       }
-  
-  .logo {
-    width: 300px;
-    height: 200px;
-    margin: 10% auto;
-    margin-left: 10px;
-  }
-  
-  header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
-    color: white;
-    font-size: 60px;
-    
-  }
-  
-  main {
-    height: 300%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    margin-top: 50px;
-    font-family: 'Fjalla One', sans-serif;
-          }
-  
-  
+  font-family: 'Fjalla One', sans-serif;
+  background-image: url(images/stars.jpeg);
+  background-repeat: no-repeat;
+  background-position-y: 40%;
+  width: auto;
+  height: 10px;
+     }
 
-  nav a {
-    margin: 2% 1% 1%;
-    height: 10%;
-    width: 15%;
-    color: white;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    padding: 20px; 
-    text-align: center;
-    border: 2px solid white;
-    font-weight: 200;
-    font-weight: 300px;
-    letter-spacing: 0.25em;
-    }
-  
-  .has-border {
-    border-radius: 5px;
-    border: 2px solid;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-      }
+.logo {
+  width: 300px;
+  height: 200px;
+  margin: 10% auto;
+  margin-left: 10px;
+}
 
-  #profile-pic {
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    margin: 35px auto;
-    grid-column: 2/3;
-    position: relative;
-  }
+header {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  color: white;
+  font-size: 60px;
   
-  h1 {
-    color: #094099;
-    grid-column: 2/3;
-    margin: 3% auto;
-    border-bottom: 0\5px solid #005266;
-    font-size: 100px;
-    text-align: center;
-    animation-iteration-count: 3;
-    
-  }
-  
-  h2 {
-    grid-column: 2/3;
-    margin: 3% auto;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    color:#094099;
-    letter-spacing: 0.25em;
-  }
+}
 
-  h3 {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Fjalla One', sans-serif;
-    letter-spacing: 0.5em;
-    overflow-y: hidden;
-  }
-  
-  button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    border-radius: 0px;
-    background: transparent;
-    padding: 20px; 
-    padding-bottom: 5%;
-    text-align: center;
-    letter-spacing: 16px;
-    text-decoration-color: none;
-    text-decoration: none;
-    
-    
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-    
-    
-  }
+main {
+  height: 300%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  margin-top: 50px;
+  font-family: 'Fjalla One', sans-serif;
+        }
 
 
-  #portfolio {
-    letter-spacing: -0.04em;
-    background-color: #094099;
-    color: white;
-    font-size: 25px;
+
+nav a {
+  margin: 2% 1% 1%;
+  height: 10%;
+  width: 15%;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 20px; 
+  text-align: center;
+  border: 2px solid white;
+  font-weight: 200;
+  font-weight: 300px;
+  letter-spacing: 0.25em;
   }
 
-  
+.has-border {
+  border-radius: 5px;
+  border: 2px solid;
+}
 
-  
-/* Small and up (Landscape Phones - ON */
-@media (max-width: 576px) {
-
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:lightblue;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 10%;
-    color: whitesmoke;
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
     }
 
-    div.image {
-      content:url(http://placehold.it/350x150);
-   }​
- 
+#profile-pic {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  margin: 35px auto;
+  grid-column: 2/3;
+  position: relative;
+}
 
+h1 {
+  color: #094099;
+  grid-column: 2/3;
+  margin: 3% auto;
+  border-bottom: 0\5px solid #005266;
+  font-size: 100px;
+  text-align: center;
+  animation-iteration-count: 3;
   
-  .logo {
-    width: 100%;
-    height: 100%;
-    margin: 5%;
-    margin-left: auto;
-    display: none;
-    }
+}
+
+h2 {
+  grid-column: 2/3;
+  margin: 3% auto;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  color:#094099;
+  letter-spacing: 0.25em;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 0.5em;
+}
+
+button {
+  grid-column: 2/3;
+  margin: 3% auto;
+  width: 70%;
+  height: 15%;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  border-radius: 0px;
+  background: transparent;
+  padding: 20px; 
+  padding-bottom: 5%;
+  text-align: center;
+  letter-spacing: 16px;
+  text-decoration-color: none;
+  text-decoration: none;
   
-  header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
-  }
   
-  main {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    font-family: 'Fjalla One', sans-serif;
-  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
   
-  nav > a {
-    margin: 2% 1% 3%; 
-    height: 10%;
-    width: 15%;
-    color: black;
-    font-family:  Tahoma;
-    font-size: 20px;
-    border-radius: 25px;
-    padding: 20px; 
-    text-align: center;
-    border: 2px solid #0795C3;
-  }
   
-  .has-border {
-    border-radius: 25px;
-    border: 1px solid #0795C3;
-    background: none;
-    padding: 20px; 
-    border-style: none;
-      }
-  
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-  }
-  
-  #profile-pic {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin: 15% auto;
-    grid-column: 2/3;
-  }
-  
-  h1 {
-    color: whitesmoke;
-    grid-column: 2/3;
-    margin: 3% auto;
-    border-bottom: 2px solid #1940A9;
-    font-family: 'Fjalla One', sans-serif;
-  }
-  
-  h2 {
-    grid-column: 2/3;
-    margin: 3% auto;
-    font-style: italic;
-    font-family: Georgia;
-  }
-  
-  button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    border-color: #0795C3;
-    padding: 20px; 
-    padding-bottom: 5%;
-    text-align: center;
-    color: white;
-    letter-spacing: 16px;
-    font-style: italic;
-    border-style: solid;
-  }
+}
+
+
+#portfolio {
+  letter-spacing: -0.04em;
+  background-color: #094099;
+  color: white;
+  font-size: 25px;
+}
+
+
+@keyframes dizzy {
 
 }
+
+
+/* -------END OF DESKTOP CSS------- */
+
+
+/* Small and up (Landscape Phones - ON */
+@media (max-width: 576px) {
 
 
 
 
 /* Medium and up (Tablets) */
 @media (max-width: 768px) 
-
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:whitesmoke;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 10%;
-    }
-
-
-
-/* Large and up (Desktops) */
-@media (min-width: 992px) {
-
-}
-
-/* Extra Large and up (Wide Screen Desktops) */
-@media (min-width: 1200px) {
-
-=======
-body {
-    font-family: 'Fjalla', sans-serif;
-    background-image: url(images/stars.jpeg);
-    background-repeat: no-repeat;
-    background-position-y: 40%;
-    background-color:whitesmoke;
-    width: auto;
-    height: 10px;
-       }
-  
-  .logo {
-    width: 300px;
-    height: 200px;
-    margin: 10% auto;
-    margin-left: 10px;
-  }
-  
-  header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
-    
-  }
-  
-  main {
-    height: 300%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-    margin-top: 50px;
-          }
-  
-  nav > a {
-    margin: 2% 1% 3%;
-    height: 10%;
-    width: 15%;
-    color: white;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px; 
-    text-align: center;
-    border: 2px solid white;
-    font-weight: 200;
-    font-weight: 300px;
-  }
-  
-  .has-border {
-    border-radius: 5px;
-    border: 2px solid #0795C3;
-    background: none;
-    padding: 20px; 
-  }
-  
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-  }
-  
-  #profile-pic {
-    width: 600px;
-    height: 600px;
-    border-radius: 50%;
-    margin: 35px auto;
-    grid-column: 2/3;
-    position: relative;
-  }
-  
-  h1 {
-    color: #094099;
-    grid-column: 2/3;
-    margin: 3% auto;
-    border-bottom: 0\5px solid #005266;
-    font-size: 100px;
-    text-align: center;
-  }
-  
-  h2 {
-    grid-column: 2/3;
-    margin: 3% auto;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 30px;
-    color:#094099;
-  }
-  
-  button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px; 
-    padding-bottom: 5%;
-    text-align: center;
-    color: white;
-    letter-spacing: 16px;
-    text-decoration-color: none;
-    text-decoration: none;
-    
-  }
-
-
-  
-
-  
-/* Small and up (Landscape Phones - ON */
-@media (max-width: 576px) {
-
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:lightblue;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 10%;
-    color: whitesmoke;
-    }
-
-    div.image {
-      content:url(http://placehold.it/350x150);
-   }​
- 
-
-  
-  .logo {
-    width: 100%;
-    height: 100%;
-    margin: 5%;
-    margin-left: auto;
-    display: none;
-    }
-  
-  header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
-  }
-  
-  main {
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-  }
-  
-  nav > a {
-    margin: 2% 1% 3%; 
-    height: 10%;
-    width: 15%;
-    color: black;
-    font-family:  Tahoma;
-    font-size: 20px;
-    border-radius: 25px;
-    padding: 20px; 
-    text-align: center;
-    border: 2px solid #0795C3;
-  }
-  
-  .has-border {
-    border-radius: 25px;
-    border: 1px solid #0795C3;
-    background: none;
-    padding: 20px; 
-    border-style: none;
-      }
-  
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-  }
-  
-  #profile-pic {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    margin: 15% auto;
-    grid-column: 2/3;
-  }
-  
-  h1 {
-    color: whitesmoke;
-    grid-column: 2/3;
-    margin: 3% auto;
-    border-bottom: 2px solid #1940A9;;
-  }
-  
-  h2 {
-    grid-column: 2/3;
-    margin: 3% auto;
-    font-style: italic;
-    font-family: Georgia;
-  }
-  
-  button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px; 
-    padding-bottom: 5%;
-    text-align: center;
-    color: white;
-    letter-spacing: 16px;
-    font-style: italic;
-  }
-
-}
-
-
-
-
-/* Medium and up (Tablets) */
-@media (max-width: 768px) 
-
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color:whitesmoke;
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 10%;
-    }
 
 
 
@@ -518,4 +161,4 @@ body {
 @media (min-width: 1200px) {
 
 
-}
+
