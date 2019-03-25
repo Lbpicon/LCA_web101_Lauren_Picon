@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.green {
+    width: 100%;
+    height: 55vh;
+    background-color: #2BCDC0;
+}
+
+h1 {
+    color:white;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    display: flex;
+    left: 35%;
+    top: 25%;
+
+}
+
+h2 {
+    color: white;
+    top: 40px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text {
+    margin-top: 50px;
+    positon: fixed;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.black {
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 45vh;
+}
+
+.block {
+    width: 300px;
+    height: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    /*display: flex;
+    flex-direction: row;*/
+    display: inline-block; /* This made the boxes side by side*/
+    position: relative;
+}
+
+.blue {
+    background-color: #33A8DD;
+
+}
+
+.jade {
+    background-color: #2BCDC0;
+}
+
+
+
+.red {
+    background-color: #F46731;
+    position: relative;
+}
+
+footer {
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 40px;
+    
+}
