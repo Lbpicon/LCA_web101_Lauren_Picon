@@ -84,3 +84,58 @@ footer {
     height: 40px;
     
 }
+
+/*CSS 4 MOBILE*/
+@media (min-width: 576px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    
+   .green {
+        background-color: #33A8DD;
+        height: 50vh;
+        text-align: center;
+        padding: 30px;
+   }
+
+   .black {
+    background-color:  #F7F5F6;
+    height: 75vh;
+    width: 100%;
+
+   }
+
+
+   h1 {
+        font-size: 40px;
+   }
+
+   h2 {
+    color: black;
+    top: 40px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.p {
+    
+    color: black; 
+}
+
+
+    footer {
+        background-color: #F7F5F6;
+        width: 100%;
+        height: 40px;
+        
+    }
+
+
+
+}
