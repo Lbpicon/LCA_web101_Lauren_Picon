@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+
+#box1 {
+    
+    color: red;
+}
+
+
+.square {
+    
+
+} 
+/*}
+table td tr {
+    
+    border: 4px #333333;
+
+}
+
+td {
+
+    border: 4px #333333;
+    width: 100%;
+    heigth: 60px;
+}
+
+table { width: 100%;
+
+
+}*/
+
+h1 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
