@@ -1,33 +1,22 @@
-var gameMarker = "x"
-function changeMarkerToX()
-{
-    var gameMarker = "x"
-    var gameMarker = "o"
-    console.log("The x button was clicked!")
-}
+var gameMarker = "X";
 
-function changeMarkerToO()
-{
-    var gameMarker = "x"
-    var gameMarker = "o"
-    console.log("The O button was clicked!")
-}
+function changeMarkerToX(){
+    gameMarker = "X"
+    console.log("The X button was clicked!");
+    }
 
+function changeMarkerToO(){
+    gameMarker = "O"
+        console.log("The 0 button was clicked!");
+    }
 
-// 1. Set up game board
-// Clear all Xs and Os from the board
-clearBoard() {
+function placeMark(divId) {
+    var box = document.getElementById(divId);
+    box.innerHTML = gameMarker;
 
 }
 
-for ( var i=1; i<10; i++) {
- var box = document.getElementById(i);
- box.innerHTML="";
 
-}
-
-var box1 = document.getElementById('box1');
-var box2 = document.getElementById('box2');
 
 // Decide who makes the first move. We can assume Player X always makes the first move
 
