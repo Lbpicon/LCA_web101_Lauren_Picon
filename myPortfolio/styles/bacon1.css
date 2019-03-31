@@ -6,9 +6,9 @@
 
 
 section {
-    background-color: #2BCDC0;
-    right: 40%;
-    display: flex;
+    background-color: #33A8DD;
+    left: 50%;
+    display: inline-block;
     position: relative;
 }
 
@@ -26,13 +26,13 @@ header {
     display: flex;
     left: 50%;
     top: 10%;
-    background-color: #2BCDC0;
+    background-color: #33A8DD;
 }
 
 .green {
     width: 100%;
     height: 55vh;
-    background-color: #2BCDC0;
+    background-color:  #33A8DD;
     overflow-x: hidden;
     }
 
@@ -171,4 +171,4 @@ p {
 
 
 
-}
+}.
