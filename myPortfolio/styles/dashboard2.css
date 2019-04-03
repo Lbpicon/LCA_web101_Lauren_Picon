@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+a {
+    text-decoration: none;
+    color: #3E8C9F;
+    font-size: 12px;
+    font-family: Arial;
+    }
+
+body {
+background-image: url(../images/coffeebeans.jpg);
+
+}
+
+header {
+    grid-area: header;
+    background-color: salmon;
+    text-align: center;
+    font-family: Arial;
+    font-size:90px;
+    text-shadow: 2px 2px 4px #3E8C9F;
+    color:lightcyan;
+   }
+
+/* CALENDAR*/
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    }
+
+#calendar {
+    background-color: salmon;
+    opacity: .85;
+    width: 800px;
+    height: 600px;
+    margin-left: 40px;
+    color: white;
+    font-family: Arial;
+    opacity: 70%;
+    font-size: 20px;
+    box-shadow: 5px 10px lightgray;
+    }
+
+#days {
+        margin: 15px 5px 10px 5px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        color: white;
+        font-family: Arial;
+        font-size: 20px;
+                }
+
+#numbers {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            margin: 10px auto;
+            grid-row-gap: 10px;
+            }
+
+li {list-style-type: none;
+                margin: 20px 20px 20px 20px;
+                }
+
+aside {
+        background-color: black;
+        display: inline-block;
+        grid-area: aside;
+                  }
+                  
+
+/*TODO APP*/
+#list_section {
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    margin: 30px 30px 50px 30px;
+    background-color:salmon;
+    display: inline-block;
+    box-shadow: 5px 10px lightgray;
+    
+                      }
+.item {
+        background-color: #fff;
+        color: #000;
+                  }
+                  
+input[type='text'] {
+font-size: 12px;
+padding: 6px;
+border: 1px solid #000;
+border-radius: 3px;
+                  }
+                  
+input[type='submit'] {
+background-color: #fff;
+color: #000;
+border-radius: 8px;
+border: none;
+width: 30px;
+padding: 5px;
+                  }
+                  
+#newItemButton {
+display: none;
+                  }
+                  
+#itemField {
+margin-top: 60px;
+width: 40%;
+                  }
+
+/* CALCULATOR*/
+.calculator {
+    border: 1px solid  black;
+    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    background: salmon;
+    width: 350px;
+    position: absolute;
+    height: 300px;
+    left: 60%;
+    top: 39%;
+    box-shadow: 5px 10px lightgray;
+    padding: 10px;
+    
+
+}
+
+.calculator > *{
+    margin: 3px;
+    width: 20%;
+    height: 20px;
+    
+    
+}
+
+#displayBox {
+    border: 3px solid blue;
+    width: 20vw;
+    margin: 10px auto;
+
+}
+
+.number {
+background: gold;
+}
+
+.button {
+background: yellow;
+
+}
+
+.submit {
+background: yellow;
+
+}

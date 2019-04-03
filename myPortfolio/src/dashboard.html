@@ -9,11 +9,10 @@
 </head>
 <body>
   <main>
+      <header>WELCOME BACK</header>
       <div class="container">
         <!-- Start of body -->
 
-
-        <header>WELCOME BACK</header>
         <nav>
           <ul>
             <li><a href="toDoApp.html">To Do App</a></li>
@@ -24,7 +23,7 @@
         <!-- Calendar -->
         <div id="calendar">
           <div id="months">
-            <h1>MARCH</h1>
+            <h1>April 2019</h1>
           </div>
         <ul id="days">
           <li>M</li>
@@ -96,20 +95,24 @@
           <button class="digitButton" id="clear">C</button>
           <button class="digitButton" id="equals">=</button>
       </div>
-          <div id="message">
-            <input type="text" id="messagebox">
-            <button id="name">LEAVE MESSAGE</button>
-          <div class="toDoList">
-            
+                <!-- Start of ToDO list-->
+      <div id="list_section">
+              <h1 id="header">To-do list</h1>
+              <ul>
+                <li class="item">Buy movie tickets</li>
+              </ul>
+              <div id="newItemButton"><button href="#">new item</button></div>
+              <form id="newItemForm">
+                <input type="text" id="itemField" placeholder="Item" />
+                <input type="submit" id="add" value="add" />
+              </form>
+            </div>
+         <!-- End of Todo List-->
 
           </div>
-
-
-          </div>
-    
-    </aside>
-        <div class="banner">CONTACT US</div>
-        <footer>&copy;2019</footer>
+        </aside>
+  
+        
              
       </div><!-- End of Container-->
   </main>
